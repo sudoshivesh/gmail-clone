@@ -1,0 +1,563 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Font Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/img/logo.png"  type="image/png">
+    <title>Gmail Clone by Shivesh</title>
+  </head>
+  <body>
+    <!-- Header Starts -->
+    <div class="header">
+      <div class="header__left">
+        <span class="material-icons"> menu </span>
+        <img
+          src="https://i.pinimg.com/originals/ae/47/fa/ae47fa9a8fd263aa364018517020552d.png"
+          alt=""
+        />
+      </div>
+
+      <div class="header__middle">
+        <span class="material-icons"> search </span>
+        <input type="text" placeholder="Search mail" />
+        <span class="material-icons"> arrow_drop_down </span>
+      </div>
+
+      <div class="header__right">
+        <span class="material-icons"> apps </span>
+        <span class="material-icons"> notifications </span>
+        <span class="material-icons"> account_circle </span>
+      </div>
+    </div>
+    <!-- Header Ends -->
+
+    <!-- Main Body Starts -->
+    <div class="main__body">
+      <!-- Sidebar Starts -->
+      <div class="sidebar">
+        <button class="sidebar__compose"><span class="material-icons"> add </span>Compose</button>
+        <div class="sidebarOption sidebarOption__active">
+          <span class="material-icons"> inbox </span>
+          <h3>Inbox</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> star </span>
+          <h3>Starred</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> access_time </span>
+          <h3>Snoozed</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> label_important </span>
+          <h3>Important</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> near_me </span>
+          <h3>Sent</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> note </span>
+          <h3>Drafts</h3>
+        </div>
+
+        <div class="sidebarOption">
+          <span class="material-icons"> expand_more </span>
+          <h3>More</h3>
+        </div>
+
+        <div class="sidebar__footer">
+          <div class="sidebar__footerIcons">
+            <span class="material-icons"> person </span>
+            <span class="material-icons"> duo </span>
+            <span class="material-icons"> phone </span>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar Ends -->
+
+      <!-- Email List Starts -->
+      <div class="emailList">
+        <!-- Settings Starts -->
+        <div class="emailList__settings">
+          <div class="emailList__settingsLeft">
+            <input type="checkbox" />
+            <span class="material-icons"> arrow_drop_down </span>
+            <span class="material-icons"> redo </span>
+            <span class="material-icons"> more_vert </span>
+          </div>
+          <div class="emailList__settingsRight">
+            <span class="material-icons"> chevron_left </span>
+            <span class="material-icons"> chevron_right </span>
+            <span class="material-icons"> keyboard_hide </span>
+            <span class="material-icons"> settings </span>
+          </div>
+        </div>
+        <!-- Settings Ends -->
+
+        <!-- Section Starts -->
+        <div class="emailList__sections">
+          <div class="section section__selected">
+            <span class="material-icons"> inbox </span>
+            <h4>Primary</h4>
+          </div>
+
+          <div class="section">
+            <span class="material-icons"> local_offer </span>
+            <h4>Promotions</h4>
+          </div>
+
+          <div class="section">
+            <span class="material-icons"> people </span>
+            <h4>Social</h4>
+          </div>
+        </div>
+        <!-- Section Ends -->
+
+        <!-- Email List rows starts -->
+        <div class="emailList__list">
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">sudoshivesh</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Regarding the application submitted by you.
+                <span class="emailRow__description"> - which is being reviewd and successfully verified. </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">07:00 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">GRIP @ The Spark F</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Regarding the application of Internship
+                <span class="emailRow__description"> - succesfully selected for internship in The spark Foundation </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">02:00 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">ICT Academy</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Thanks for applying for the program<span class="emailRow__description">
+                  - please find the email id and password mentioned
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">01:00 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Google</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Login on New Device<span class="emailRow__description">
+                  - is this your Device ?
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">2:00 am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Wipro</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You have successfully cleared the
+                <span class="emailRow__description"> - please find the offer letter mentioned </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10:00 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Whatsapp Inc</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Mailed your backup of the chat
+                <span class="emailRow__description"> - download and decrypt the file to get </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">07:07 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">thedigitaladda.com</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Ethical Hacking Certification<span class="emailRow__description">
+                  - don't forget to share on your LinkedIn
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">06:00 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Google</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                New Device login from your side<span class="emailRow__description">
+                  - verifiy it is you or you can report here ?
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">01:01 am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Instagram</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Password reset request
+                <span class="emailRow__description"> - has successfully changed </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10:00 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">mycredible</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                profile verification is pending
+                <span class="emailRow__description"> - only 60% of your profile is verified </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">05:00 pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">LinkedIn</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You have got a connection request<span class="emailRow__description">
+                  - see on the profile who is going to connect with you
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">03:30 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Snapchat</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Your connection is pending<span class="emailRow__description">
+                  - Have you checked your connection request ?
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">07:00 PM</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">YouTube</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Subscriber
+                <span class="emailRow__description"> - on Your Channel Future Coders </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">YouTube</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Subscriber
+                <span class="emailRow__description"> - on Your Channel Future Coders </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">YouTube</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Subscriber<span class="emailRow__description">
+                  - on Your Channel Future Coders
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Google</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Login on New Device<span class="emailRow__description">
+                  - is this your Device ?
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">2am</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">OnePlus India</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Dear sudoshivesh you are selected
+                <span class="emailRow__description"> - for selected as one SAP </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">YouTube</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Subscriber
+                <span class="emailRow__description"> - on Your Channel Future Coders </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">YouTube</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                You Got a New Subscriber<span class="emailRow__description">
+                  - on Your Channel Future Coders
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">10pm</p>
+          </div>
+          <!-- Email Row Ends -->
+
+          <!-- Email Row Starts -->
+          <div class="emailRow">
+            <div class="emailRow__options">
+              <input type="checkbox" name="" id="" />
+              <span class="material-icons"> star_border </span>
+              <span class="material-icons"> label_important </span>
+            </div>
+
+            <h3 class="emailRow__title">Microsoft</h3>
+
+            <div class="emailRow__message">
+              <h4>
+                Application request rejected<span class="emailRow__description">
+                  - We don't find your application maching to our job profile ?
+                </span>
+              </h4>
+            </div>
+
+            <p class="emailRow__time">2am</p>
+          </div>
+          <!-- Email Row Ends -->
+        </div>
+        <!-- Email List rows Ends -->
+      </div>
+      <!-- Email List Ends -->
+    </div>
+    <!-- Main Body Ends -->
+  </body>
+</html>
